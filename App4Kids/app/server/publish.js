@@ -3,3 +3,8 @@
  *  this.ready();
  * });
  */
+
+
+Meteor.publish('assessment', function (/* args */) {
+  return Assessment.find();
+});

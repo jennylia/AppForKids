@@ -10,3 +10,11 @@ Router.route('/', {
   action: 'action',
   where: 'client'
 });
+
+
+Router.route('assessment', {
+  name: 'assessment',
+  controller: 'AssessmentController',
+  action: 'action',
+  where: 'client'
+});
