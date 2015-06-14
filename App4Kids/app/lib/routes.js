@@ -18,3 +18,10 @@ Router.route('assessment', {
   action: 'action',
   where: 'client'
 });
+
+Router.route('case', {
+  name: 'case',
+  controller: 'CaseController',
+  action: 'action',
+  where: 'client'
+});

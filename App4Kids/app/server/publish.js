@@ -8,3 +8,7 @@
 Meteor.publish('assessment', function (/* args */) {
   return Assessment.find();
 });
+
+Meteor.publish('case', function (/* args */) {
+  return Case.find();
+});
